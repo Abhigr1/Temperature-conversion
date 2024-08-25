@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+body{
+    background-color: rgb(206, 233, 237);
+    
+}
+.wrapper{
+    width: 95%;
+    max-width: 20em;
+    background-color: rgb(165, 222, 229);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+.title{
+    margin:0.5em;
+    padding: 0.5em;
+    color: rgb(42, 26, 122);
+
+}
+button{
+    width: 100%;
+    border: none;
+    border-radius: 0.4em;
+    cursor: pointer;
+    padding: 2px;
+}
